@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Globaux */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden; /* Prevents double scrollbars */
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* S'assurer que tous les conteneurs occupent toute la largeur */
+.full-width {
+  width: 100%;
+}
+
+/* Classe pour les conteneurs de page (assurez-vous qu'ils prennent toute la largeur) */
+.page-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Classe pour les conteneurs de chargement */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+/* S'assurer que les grilles prennent toute la largeur disponible */
+.grid {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Assurer que les composants principaux ne débordent pas */
+.main-content {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Animation de chargement avec effet de pulsation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.loading-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

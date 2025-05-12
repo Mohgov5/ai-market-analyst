@@ -1,0 +1,31 @@
+# Environnements virtuels
+venv/
+*/venv/
+.venv/
+env/
+ENV/
+
+# Fichiers volumineux spécifiques
+*.dll
+*.lib
+*.so
+*.pyd
+
+# Build et distributions
+dist/
+build/
+*.egg-info/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+
+# Autres
+.DS_Store
+.env

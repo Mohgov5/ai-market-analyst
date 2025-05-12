@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/context/themecontext.tsx","./src/components/chat/chatbot.tsx","./src/components/layout/sidebar.tsx","./src/hooks/usecurrencydata.ts","./src/layouts/mainlayout.tsx","./src/pages/currencydetail.tsx","./src/pages/dashboard.tsx"],"errors":true,"version":"5.8.3"}
